@@ -1,0 +1,116 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="cs"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Rudý Štít</title>
+    <meta name="description" content="Rudý Štít - Kniha z fantasy světa plného králů, rytířů, ale i monster a tajuplných míst. Malý příběh, odehrávající se ve stínu velkých událostí.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="stylesheet" href="css/fog.css">
+</head>
+
+<body>
+<img id="back" src="img/shield.png" alt="Rudý Štít"/>
+<div id="text">
+    <img id="logo" class="image" src="img/title.png" alt="Rudý Štít">
+    <div id="description" class="hyphenate">
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="synopsis" role="tabpanel" aria-labelledby="synopsis-tab">
+                <p>Taribald Rac Karahann, člen řádu legendárních Rudých Štítů, je pověřen vyšetřením zvráceného masakru vesnice na Stinných Vrších.</p>
+                <p>Cesta do zapadlé části království, skryté za rozlehlým a tajuplným Hluchým Hvozdem, pro něj není ničím jiným než trestem a vyhoštěním.</p>
+                <p>Ne prvním v jeho životě.</p>
+                <p>Přesto je odhodlán dostát svému poslání a vypátrat a zabít monstrum, které zaútočilo na tento zaostalý kraj.</p>
+                <p>Zbytek království může na obyvatele Stinných Vrchů shlížet s opovržením, ale i tak je Taribaldovou povinností, jakkoliv je to pod jeho úroveň, je ochránit.</p>
+                <p>Ve světě obývaném monstry, jak nadpřirozenými, tak v lidské kůži, jak dalekosáhlé následky může tato zdánlivě nevýznamná událost mít?</p>
+                <p class="wave">~</p>
+                <p>Malý příběh, odehrávající se ve stínu velkých historických událostí, se rozprostírá na 270 stranách.</p>
+                <h2>Ebook ke stažení</h2>
+                <h4>
+                    <a href="files/rudy_stit_ebook.zip" onclick="ga('send', 'event', 'Download', 'Ebook')" class="fileDownload">Rudý Štít - Ebook (mobi, epub, pdf, azk)</a>
+                </h4>
+                <h4>
+                    <a href="files/rudy_stit_poster.pdf" onclick="ga('send', 'event', 'Download', 'Poster')" class="fileDownload" target="_blank">Rudý Štít - Plakát</a>
+                </h4>
+                <br>
+                <p>Ebook je ke stažení zdarma.</p>
+                <p>Chceš-li mne ale podpořit, to nejlepší, co můžeš udělat je <strong>říct o knížce někomu dalšímu.</strong></p>
+                <br>
+                <p>
+                    <small>Pokud chceš přeci jen podpořit finančně, můžeš tak
+                        <a href="https://www.nfsanceonkolackum.cz/" onclick="ga('send', 'event', 'Click', 'Charita')">učinit tady.</a>
+                    </small>
+                </p>
+                <h2>Už jsi knížku přečetl?</h2>
+                <p>Zanech hodnocení na jednom z těchto webů:</p>
+                <p style="text-align: center">
+                    <a href="https://www.goodreads.com/book/show/40778976-rud-t-t" onclick="ga('send', 'event', 'review', 'goodreads')">GoodReads</a> |
+                    <a href="https://www.databazeknih.cz/knihy/rudy-stit-384945" onclick="ga('send', 'event', 'review', 'databaze-knih')">Databáze Knih</a> |
+                    <a href="https://www.facebook.com/rudystit/" onclick="ga('send', 'event', 'review', 'facebook')">Facebook</a>
+                </p>
+                <p>
+                    <img class="image" src="img/stack.jpg" alt="Rudý Štít"/>
+                </p>
+                <p>
+                    <img class="image" src="img/cover.jpg" alt="Rudý Štít"/>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="page-footer text-center text-small">
+        <div><a href="#" id="scrollUp">Nahoru</a></div>
+        <div>(c) 2018 Tomáš Pospíšil</div>
+        <div><a href="mailto:pospisilt@gmail.com">pospisilt@gmail.com</a></div>
+        <br>
+        <iframe style="width:310px;height:271px;" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Ffacebook.com%2Frudystit&amp;layout=box_count&amp;show_faces=false&amp;action=like&amp;colorscheme=dark" id="lkbtn" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </footer>
+</div>
+
+<div id="continue">
+    <p style="text-align: center"><i>Klikni pro spuštění...</i></p>
+</div>
+
+<div class="u-full-width">
+    <canvas id="myCanvas"></canvas>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/jqueryColor.js"></script>
+<script src="js/fog.js"></script>
+<script src="js/hyphenate.js"></script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        }
+    )(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-53852430-7', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>
